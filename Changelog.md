@@ -1,3 +1,60 @@
+**V1.9.26 - Updates**
+- Delete unintentionally added workflow file
+
+**V1.9.25 - Updates**
+- clang-format codebase
+
+**V1.9.24 - Updates**
+- Fix hold currents of AZ/ALT/Focuser drivers.
+
+**V1.9.23 - Updates**
+- Add option to keep focuser motor enabled after moving.
+
+**V1.9.22 - Updates**
+- Add focuser pins for MKS Gen L v2.0.
+
+**V1.9.21 - Updates**
+- Fix southern hemisphere reversed DEC free slew directions
+
+**V1.9.20 - Updates**
+- Made github version check more robust
+
+**V1.9.19 - Updates**
+- Added support to reset the focus stepper position
+- Fixed some focus validation tests
+
+**V1.9.18 - Updates**
+- Fix RA guiding multiplier not being applied correct
+
+**V1.9.17 - Updates**
+- Fix southern hemisphere returning RA offset by -12hr
+
+**V1.9.16 - Updates**
+- Add Meade extension command to move steppers by steps.
+
+**V1.9.15 - Updates**
+- Fixed incorrect speed for DEC when using 28BYJ-48 steppers
+
+**V1.9.14 - Updates**
+- Fix hardware reporting for "Unknown" boards
+
+**V1.9.13 - Updates**
+- Fix southern hemisphere returning incorrect DEC values (edge case)
+
+**V1.9.12 - Updates**
+- Fix southern hemisphere returning incorrect DEC values
+
+**V1.9.11 - Updates**
+- Add support for focuser on E1 motor for MKS board. 
+- Add focuser command support to LX200 protocol.
+
+**V1.9.10 - Updates**
+- Fixed a bug that caused a compilation fail when enabling LCD_BUTTON_TEST
+- Allowed connection test to be set in local config
+
+**V1.9.09 - Updates**
+- Sample Local Config - disabled as default
+
 **V1.9.08 - Updates**
 - Continuous integration improvements. Checking for version and changelog changes automatically
 
